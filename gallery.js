@@ -1,6 +1,8 @@
 /*Name this external file gallery.js*/
 
 function upDate(previewPic){
+    console.log('upDate function triggered');
+    console.log('previewPic:', previewPic); 
     const x=document.getElementById('image');
     x.style.backgroundImage=`url(${previewPic.src})`;
     x.style.backgroundColor='#b3b3b3';
